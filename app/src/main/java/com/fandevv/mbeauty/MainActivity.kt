@@ -2,8 +2,6 @@ package com.fandevv.mbeauty
 
 import android.os.Bundle
 import android.util.Log
-import android.view.View
-import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -53,7 +51,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         if (returned != null){
-
             if(returned!!.isSuccessful){
                 schedules = returned!!.body()
                 for (item in schedules!!){
