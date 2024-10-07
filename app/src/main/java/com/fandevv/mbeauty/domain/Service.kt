@@ -1,4 +1,4 @@
-package com.fandevv.mbeauty.entities
+package com.fandevv.mbeauty.domain
 
 data class Service(
     val id: Int,

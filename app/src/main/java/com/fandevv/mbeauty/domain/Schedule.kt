@@ -1,13 +1,12 @@
-package com.fandevv.mbeauty.entities
+package com.fandevv.mbeauty.domain
 
 import com.google.gson.annotations.SerializedName
 
 data class Schedule(
     val id: Int,
-    val scheduleDate: String,
+    val date: String,
+    val hour: String,
     val price: Double,
-    @SerializedName("userDTO")
     val user: User,
-    @SerializedName("serviceDTO")
     val service: Service
 )

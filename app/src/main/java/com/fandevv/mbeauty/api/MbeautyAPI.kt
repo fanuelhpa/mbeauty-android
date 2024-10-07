@@ -1,6 +1,6 @@
 package com.fandevv.mbeauty.api
 
-import com.fandevv.mbeauty.entities.Schedule
+import com.fandevv.mbeauty.domain.Schedule
 import retrofit2.Response
 import retrofit2.http.GET
 
